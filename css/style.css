@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+main {
+  min-height: 80vh; }
+  main .textoInfoEnvio {
+    font-size: 150%; }
+  main .textoInfoNosotros {
+    font-size: 150%; }
+  main h1 {
+    border: black 4px solid;
+    padding: 50px;
+    margin: 100px 1px 14px 0px;
+    text-align: center;
+    background-color: #e9967a;
+    opacity: 0.8;
+    font-family: 'Roboto', sans-serif; }
+    main h2 {
+      border: black 4px solid;
+      padding: 50px;
+      text-align: center;
+      background-color: #eff5f7;
+      opacity: 0.8;
+      font-family: 'Cantarell', sans-serif; }
+
+header {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header .img {
+    width: 250px;
+    padding: 15px; }
+  header .a {
+    text-decoration: none; }
+  header .a:hover {
+    color: #75abbc;
+    font-weight: bold; }
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/elegant-white-wallpaper-with-golden-details_23-2149095007.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: auto; }
+
+li {
+  background-color: #ffffff;
+  padding: 2px;
+  display: inline;
+  margin: 10px; }
+
+footer .listfooter {
+  display: flex;
+  justify-content: flex-start; }
+
+p {
+  display: inline;
+  background-color: grey; }
+
+.carousel-inner {
+  height: auto;
+  max-width: 100%;
+  margin-top: 0px; }
+
+.card-text {
+  display: inline;
+  background-color: #ffffff; }
+
+@media (max-width: 810px) {
+  .contenedor2 {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 700px) {
+  .header {
+    flex-direction: column; } }
+
+@media (max-width: 412px) {
+  .header img {
+    width: 150px; }
+  .contenedor2 {
+    grid-template-columns: repeat(1, 1fr); } }
