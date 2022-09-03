@@ -54,8 +54,11 @@ footer .listfooter {
   display: flex;
   justify-content: flex-start; }
 
+
+
 p {
   display: inline;
+  
   }
 
 .carousel-inner {
