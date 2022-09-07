@@ -42,9 +42,9 @@ header {
     .a {
         text-decoration: none;
     }
-    .a:hover {
-        color: #75abbc;
-        font-weight: bold;
+        :hover {
+            color: #75abbc;
+            font-weight: bold;
     }
 }
 body {

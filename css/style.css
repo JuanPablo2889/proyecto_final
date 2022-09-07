@@ -35,7 +35,7 @@ header {
     padding: 15px; }
   header .a {
     text-decoration: none; }
-  header .a:hover {
+  header :hover {
     color: #75abbc;
     font-weight: bold; }
 
@@ -45,7 +45,6 @@ body {
   background-size: auto; }
 
 li {
-  
   padding: 2px;
   display: inline;
   margin: 10px; }
@@ -54,12 +53,8 @@ footer .listfooter {
   display: flex;
   justify-content: flex-start; }
 
-
-
 p {
-  display: inline;
-  
-  }
+  display: inline; }
 
 .carousel-inner {
   height: auto;
