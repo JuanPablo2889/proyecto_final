@@ -4,10 +4,12 @@
   padding: 0;
   box-sizing: border-box; }
 
+main .textoInfoEnvio {
+  font-size: 150%;
+  font-family: "Poppins", sans-serif; }
+
 main {
   min-height: 80vh; }
-  main .textoInfoEnvio {
-    font-size: 150%; }
   main .textoInfoNosotros {
     font-size: 150%; }
   main h1 {
@@ -15,14 +17,14 @@ main {
     padding: 50px;
     margin: 100px 1px 14px 0px;
     text-align: center;
-    background-color: #e9967a;
     opacity: 0.8;
-    font-family: "Poppins", sans-serif; }
+    font-family: "Poppins", sans-serif;
+    background-color: #f5f2f0; }
   main h2 {
     border: black 4px solid;
     padding: 50px;
     text-align: center;
-    background-color: #eff5f7;
+    background-color: #f5f2f0;
     opacity: 0.8;
     font-family: 'Cantarell', sans-serif; }
 

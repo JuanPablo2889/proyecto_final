@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 @import '../variables/tipografia';
+@import '../variables/extend';
 main {
     min-height: 80vh;
     .textoInfoEnvio {
-        font-size: 150%;
+        @extend%estiloTexto;
     }
     .textoInfoNosotros{
         font-size: 150%;
@@ -17,15 +18,16 @@ main {
         padding: 50px;
         margin: 100px 1px 14px 0px;
         text-align: center;
-        background-color: #e9967a;
+        
         opacity: 0.8;
         font-family: $cursiva;
+        @include tituloCentral;
     }
     h2 {
         border: black 4px solid;    
         padding: 50px;
         text-align: center;
-        background-color: #eff5f7;
+        @include tituloCentral;
         opacity: 0.8;
         font-family: 'Cantarell', sans-serif;
         }
