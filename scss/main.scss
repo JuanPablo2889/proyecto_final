@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import '../variables/tipografia';
-@import '../variables/extend';
+@import './variables/tipografia';
+@import './variables/extend';
 main {
     min-height: 80vh;
     .textoInfoEnvio {
