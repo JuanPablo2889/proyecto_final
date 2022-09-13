@@ -9,9 +9,11 @@ main {
     min-height: 80vh;
     .textoInfoEnvio {
         @extend%estiloTexto;
+        text-align: center;
     }
     .textoInfoNosotros{
         font-size: 150%;
+        text-align: center;
     }
     h1 {
         border: black 4px solid;

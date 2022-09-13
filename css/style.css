@@ -10,8 +10,11 @@ main .textoInfoEnvio {
 
 main {
   min-height: 80vh; }
+  main .textoInfoEnvio {
+    text-align: center; }
   main .textoInfoNosotros {
-    font-size: 150%; }
+    font-size: 150%;
+    text-align: center; }
   main h1 {
     border: black 4px solid;
     padding: 50px;
