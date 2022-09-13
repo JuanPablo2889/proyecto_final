@@ -63,16 +63,21 @@ li {
 }
 
 
-footer .listfooter{
+footer {
+    justify-content: center;
+    .listfooter {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 p{
-    display: inline;
-    
+    display: inline; 
 }
-
+    .copytac {
+        justify-content: center;
+        display: flex;
+    }
+}
 .carousel-inner{
     height: auto;
     max-width: 100%;

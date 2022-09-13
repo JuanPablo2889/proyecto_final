@@ -52,12 +52,16 @@ li {
   display: inline;
   margin: 10px; }
 
-footer .listfooter {
-  display: flex;
-  justify-content: flex-start; }
-
-p {
-  display: inline; }
+footer {
+  justify-content: center; }
+  footer .listfooter {
+    display: flex;
+    justify-content: center; }
+  footer p {
+    display: inline; }
+  footer .copytac {
+    justify-content: center;
+    display: flex; }
 
 .carousel-inner {
   height: auto;
