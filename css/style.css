@@ -29,6 +29,8 @@
   border: 0;
   margin-bottom: 1.5em;
   text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
   
 }
 .card:hover{
